@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--Grey-900);
+    color: var(--White);
+}
+
+p{
+    font-size: 14px;
+}
+
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    background: var(--Grey-800);
+    align-items: center;
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 320px;
+    width: 90%;
+}
+
+/* Profile Image */
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+/* Name & Location */
+.profile-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.profile-location {
+    color: var(--Green);
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+
+/* Bio Text */
+.profile-bio {
+    font-size: 13px;
+    color: hsl(0, 0%, 85%);
+    margin-bottom: 1.5rem;
+}
+
+.social-links{
+    display: block;
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li{
+    margin-bottom: 10px;
+}
+
+.social-links a{
+    display: flex;
+    flex-direction: column;
+    background: var(--Grey-700);
+    color: var(--White);
+    padding: 10px 75px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    width: 100%;
+}
