@@ -107,5 +107,6 @@ p{
     align-items: center;
     white-space: nowrap;
     width: 100%;
+    max-width: 280px;
     transition: color 0.3s ease, box-shadow 0.3s ease;
 }
