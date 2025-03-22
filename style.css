@@ -75,6 +75,7 @@ p{
 .social-links{
     display: flex;
     flex-direction: column;
+    text-align: center;
     list-style: none;
     padding: 0;
 }
