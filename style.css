@@ -82,6 +82,15 @@ p{
     margin-bottom: 10px;
 }
 
+.social-links a:hover{
+    box-shadow: 0px 0px 11px 0px rgba(140,249,57,0.80);
+}
+
+.social-links a:active{
+    background: var(--Green);
+    color: var(--Grey-900);
+}
+
 .social-links a{
     display: flex;
     flex-direction: column;
@@ -96,4 +105,5 @@ p{
     align-items: center;
     white-space: nowrap;
     width: 100%;
+    transition: color 0.3s ease, box-shadow 0.3s ease;
 }
